@@ -21,9 +21,6 @@ This repository contains C++ programming exercises completed as part of the comp
 
 ---
 
-> [!NOTE]
-> Assignements are not pushed for the moments
-
 ## Assignements
 |Filename|Description|Where to find|
 |:------|:---------|:-----------|
