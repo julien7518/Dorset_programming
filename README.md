@@ -25,3 +25,4 @@ This repository contains C++ programming exercises completed as part of the comp
 |Filename|Description|Where to find|
 |:------|:---------|:-----------|
 |`banking.cpp` + `banking.exe`| Design and implement a simple Banking System in C++ |[Class Assignement.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=96991) |
+|`quizz.cpp` + `quizz.exe`| Create a Multiple Choice Quiz with score tracking |[Goup Assessment.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=97747) |
