@@ -490,21 +490,31 @@ Quizz quizz_content = {
         }}
 };
 
+// Convert seconds to minutes and seconds
+string toMinSec(time_t seconds){
+    int minutes = seconds / 60;
+    return (to_string(minutes) + "min " + to_string(seconds%60) + "s");
+}
+
 int main()
 {
     // Displaying the welcome message
     cout << "Welcome to our Geography and History quizz." << endl;
+    
+    // Replace following lines by system("pause") if you're using windows
     cout << "Press enter to begin..." << endl;
     system("read");
 
     // Iniatilizing variables
     int score = 0;
+    int question_number = 1;
     int minimum_score = 50 * 0.6; // 50 questions x 60% correct answer
 
+    // Needed to calculate the total time spent on the quizz
     time_t begin;
-    time(&begin);
-    int question_number = 1;
+    time(&begin); 
 
+    // For each subtopic, and for each question we print the question and ask for an input
     for (Subtopic topic : quizz_content.subtopics)
     {
         cout << endl;
@@ -536,14 +546,16 @@ int main()
     }
     time_t end;
     time(&end);
+    time_t time_spent = end - begin;
 
+    // Print the test status and the time spent
     if (score < minimum_score)
     {
-        cout << "Test failed in " << (end - begin) << " seconds." << endl;
+        cout << "Test failed in " << toMinSec(time_spent) << endl;
     }
     else
     {
-        cout << "Test passed successfully ! (" << (end - begin) << "seconds)" << endl;
+        cout << "Test passed successfully ! (" << toMinSec(time_spent) << ")" << endl;
     }
 
     return 0;
