@@ -1,0 +1,6 @@
+101 Single Available
+102 Double Available
+103 Dormitory Available
+104 Double NotAvailable
+201 Dormitory NotAvailable
+202 Single Available

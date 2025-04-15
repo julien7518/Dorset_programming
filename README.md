@@ -6,7 +6,7 @@ This repository contains C++ programming exercises completed as part of the comp
 
 - **`src/`** : Contains the source files (`.cpp`) for the exercises.
 - **`bin/`** : Contains the executable files (`.exe`) generated from the source files.
-- **`assignements/`** : Contains all files (source and compiled) asked for assignements.
+- **`assignements/`** : Contains all files (source, compiled, and ressources) asked for assignements.
 
 ## Descriptions
 
@@ -25,5 +25,6 @@ This repository contains C++ programming exercises completed as part of the comp
 ## Assignements
 |Filename|Description|Where to find|
 |:------|:---------|:-----------|
-|`banking.cpp` + `banking.exe`| Design and implement a simple Banking System in C++ |[Class Assignement.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=96991) |
-|`quizz.cpp` + `quizz.exe`| Create a Multiple Choice Quiz with score tracking |[Goup Assessment.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=97747) |
+| `/banking`| Design and implement a simple Banking System in C++ |[Class Assignement.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=96991) |
+|`/quizz`| Create a Multiple Choice Quiz with score tracking |[Goup Assessment.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=97747) |
+|`/hotel`| Implement simplified version of a hotel booking system |[Class Assignment-2.pdf](https://moodle.dorset.ie/mod/assign/view.php?id=98658) |
